@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emmy Blumenthal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Emmy Blumenthal</h1>
+            <strong>PhD Student, Princeton University Department of Physics</strong>
+            <br>
+            They, them, theirs
+        </header>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong>
+                <span class="protected-email">
+                    <span style="order: 17;">t</span>
+                    <span style="order: 2;">b</span>
+                    <span style="order: 16;">e</span>
+                    <span style="order: 12;">r</span>
+                    <span style="order: 28;">d</span>
+                    <span style="order: 13;">i</span>
+                    <span style="order: 11;">p</span>
+                    <span style="order: 14;">n</span>
+                    <span style="order: 29;">u</span>
+                    <span style="order: 21;">[</span>
+                    <span style="order: 22;">d</span>
+                    <span style="order: 23;">o</span>
+                    <span style="order: 24;">t</span>
+                    <span style="order: 25;">]</span>
+                    <span style="order: 4;">u</span>
+                    <span style="order: 27;">e</span>
+                    <span style="order: 19;">n</span>
+                    <span style="order: 3;">l</span>
+                    <span style="order: 15;">c</span>
+                    <span style="order: 1;">e</span>
+                    <span style="order: 6;">[</span>
+                    <span style="order: 7;">a</span>
+                    <span style="order: 8;">t</span>
+                    <span style="order: 9;">]</span>
+                    <span style="order: 18;">o</span>
+                    <span style="order: 5;">&nbsp;</span>
+                    <span style="order: 10;">&nbsp;</span>
+                    <span style="order: 20;">&nbsp;</span>
+                    <span style="order: 26;">&nbsp;</span>
+                  </span>
+                <br>
+            <!-- </p>
+            <p> -->
+                <strong>Office:</strong> Center for the Physics of Biological Function Space, Icahn Laboratories 232</p>
+        </div>
+
+        <!-- <img  src="./dynsplash.png" alt="Ecological dynamics" width="300"><br>
+        <img  src="./traj_plt.png" alt="Stochastic optimal control" width="300"><br> -->
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="./dynsplash.png" alt="Ecological dynamics" width="200">
+            </div>
+            <div class="image-wrapper" id="animation-container">
+                <img id="torus-image" src="./tor_wave_static.png" alt="Torus wave" width="200">
+            </div>
+            <div class="image-wrapper">
+                <img src="./traj_plt.png" alt="Stochastic optimal control" width="200">
+            </div>
+        </div>
+        <div id="animation-link" class="animation-trigger">
+            <a href="#" id="load-animation">Load animation</a>
+        </div>
+        <!-- <em>(Some cool ecological dynamics!)</em> -->
+        <!-- <em>(Some cool ecological dynamics!)</em> -->
+        <div class="profile-section">
+            <!-- <img class="profile-image" src="./dynsplash.png" alt="Ecological dynamics" width="200"> -->
+            <div>
+                <p>
+                    I am a PhD student in the <a href="https://phy.princeton.edu/people/emmy-blumenthal">Department of Physics at Princeton University</a>, where I research phenomena in biological and statistical physics using primarily theoretical and computational approaches.
+                    I am additionally affiliated with the <a href="https://biophysics.princeton.edu/">Center for the Physics of Biological Function</a>.
+                    Professor <a href="https://reddylab.physics.princeton.edu/">Gautam Reddy</a> is my primary advisor, and I regularly collaborate with others.
+                </p>
+                <p>
+                    I believe that biophysics theory is defined not just by its objects of study but also the methods and attitudes one adopts.
+                    I am thus interested in a wide range of scientific questions.
+                    <br>
+                </p>
+                <p>
+                    Prior to my PhD, I received a B.A. in Physics and Mathematics from Boston University where I worked with Professor <a href="https://physics.bu.edu/~pankajm/">Pankaj Mehta</a>.
+                    During that time, I primarily studied machine learning and community ecology models using statistical physics perspectives.
+                </p>
+                <p>
+                    I am fortunate to have my research supported by the <a href="https://www.hertzfoundation.org/person/emmy-blumenthal/">Hertz Fellowship</a> and the National Science Foundation Graduate Research Fellowship Program.
+                    At Boston University, I was supported by the Trustee Scholarship and Undergradute Research Opportunities Program.
+                    <!-- Additionally, I am affiliated with the <a href="https://biophysics.princeton.edu/">Center for the Physics of Biological Function</a>. -->
+                    My mentors and regular collaborators include but are not limited to:
+                    Pankaj Mehta, Akshit Goyal, Zhijie (Sarah) Feng, Jason Rocks, Maria Yampolskaya.
+                </p>
+            </div>
+        </div>
+
+        <h2>Research Interests</h2>
+       <p>
+            My research interests include:
+            Ecology and evolution in high dimensions,
+            disordered systems,
+            stochastic optimal control in biology,
+            machine learning and statistical inference,
+            statistical mechanics without equilibrium,
+            and fun problems involving probability.
+       </p>
+
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://scholar.google.com/citations?user=RtwSAW0AAAAJ">Google Scholar Profile</a></li>
+            <li><a href="./papers.html">List of my papers, projects, and PDFs</a></li>
+            <li><a href="./notes/index.html">Miscellaneous notes</a></li>
+            <li><a href="./CV.pdf">Curriculum vitae (last updated May 2025)</a></li>
+        </ul>
+
+
+
+        <footer style="margin-top: 30px; border-top: 1px solid #ccc; padding-top: 10px; font-size: 0.9em;">
+            <p>Last updated: May 2025</p>
+        </footer>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const animationLink = document.getElementById('animation-link');
+        const torusImage = document.getElementById('torus-image');
+        
+        document.getElementById('load-animation').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // Replace static image with animation
+            torusImage.src = './tor_wave.gif';
+            
+            // Hide the link
+            animationLink.style.visibility = 'hidden';
+        });
+    });
+</script>
+</body>
+</html>

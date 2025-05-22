@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emmy Blumenthal - Papers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <strong>Emmy Blumenthal's Publications</strong>
+            <!-- <strong>PhD Student, Princeton University Department of Physics</strong> -->
+            <br>
+            <a href="./index.html">Homepage</a>
+        </header>
+
+        <h2>Papers</h2>
+        <ul class="publications">
+            <li>
+                <strong>A theory of ecological invasions and its implications for eco-evolutionary dynamics</strong> (2024)<br>
+                    <!-- <em>Physical Review Letters</em> (Editors' Suggestion)
+                    <br> -->
+                Zhijie Feng, <u>Emmy Blumenthal</u>, Pankaj Mehta, Akshit Goyal<br>
+                <a href="./papers/2503.10865v1.pdf">PDF</a> | 
+                <a href="https://arxiv.org/abs/2503.10865">arXiv</a>
+            </li>
+
+            <li>
+                <strong>Phase Transition to Chaos in Complex Ecosystems with
+                    Nonreciprocal Species-Resource Interactions</strong> (2024)<br>
+                    <em>Physical Review Letters</em> (Editors' Suggestion)
+                    <br>
+                <u>Emmy Blumenthal</u>, Jason Rocks, Pankaj Mehta<br>
+                <a href="./papers/PhysRevLett.132.127401.pdf">PDF</a> | 
+                <a href="./papers/PhysRevLett.132.127401_SM.pdf">Supporting Information</a> | 
+                <a href="https://doi.org/10.1103/PhysRevLett.132.127401">Journal Link</a> |
+                <a href="https://arxiv.org/abs/2308.15757">arXiv</a>
+            </li>
+            
+            <li>
+                <strong>Geometry of ecological coexistence and niche differentiation</strong> (2023)<br>
+                <u>Emmy Blumenthal</u>, Pankaj Mehta<br>
+                <em>Physical Review E</em>
+                <br>
+                <a href="./papers/PhysRevE.108.044409.pdf">PDF</a> | 
+                <a href="https://doi.org/10.1103/PhysRevE.108.044409">Journal Link</a> |
+                <a href="https://arxiv.org/abs/2304.10694">arXiv</a>
+            </li>
+            
+            <li>
+                <strong>Search for Axionlike Dark Matter Using Solid-State Nuclear Magnetic Resonance</strong> (2021)<br>
+                Deniz Aybas, Deniz Aybas, Janos Adam, <u>Emmy Blumenthal</u>, Alexander V. Gramolin, Dorian Johnson, Annalies Kleyheeg, Derek F. Jackson Kimball1, Dmitry Budker, and Alexander O. Sushkov, et al<br>
+                <em>Physical Review Letters</em>
+                <br>
+                <a href="./papers/PhysRevLett.126.141802.pdf">PDF</a> | 
+                <a href="https://doi.org/10.1103/PhysRevLett.126.141802">Journal Link</a> |
+                <a href="https://arxiv.org/abs/2101.01241">arXiv</a>
+            </li>
+        </ul>
+
+        <h2>Miscellaneous projects</h2>
+        <ul class="publications">
+            <li>
+                <strong>Lagrangian mechanics of 2D rolling body
+                </strong> (2023)<br>
+                    <!-- <em>Physical Review Letters</em> (Editors' Suggestion)
+                    <br> -->
+                <u>Emmy Blumenthal</u><br>
+                <a href="https://community.wolfram.com/groups/-/m/t/2820980">Wolfram Community Post</a>
+                <br>
+                <div class="project-images">
+                    <div class="image-group">
+                        <div class="image-with-animation">
+                            <img id="seed-image" src="./papers/img/rolling_2D_seed_static.png" alt="Rolling seed" width="300">
+                            <div id="seed-animation-link" class="animation-trigger inline-trigger">
+                                <a href="#" id="load-seed-animation">Load animation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-group">
+                        <img src="./papers/img/rolling_phase_portrait.png" alt="Rolling seed phase portrait" width="280">
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <strong>Solving the wave equation on a torus</strong> (2019)<br>
+                    <!-- <em>Physical Review Letters</em> (Editors' Suggestion)
+                    <br> -->
+                <u>Emmy Blumenthal</u><br>
+                <a href="https://community.wolfram.com/groups/-/m/t/1707287">Wolfram Community Post</a>
+                <br>
+                <div class="project-images">
+                    <div class="image-group">
+                        <div class="image-with-animation">
+                            <img id="torus-image" src="./tor_wave_static.png" alt="Torus wave" width="200">
+                            <div id="torus-animation-link" class="animation-trigger inline-trigger">
+                                <a href="#" id="load-torus-animation">Load animation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <p>Last updated: May 2025</p>
+        </footer>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Setup for seed animation
+    const seedAnimationLink = document.getElementById('seed-animation-link');
+    const seedImage = document.getElementById('seed-image');
+    
+    document.getElementById('load-seed-animation').addEventListener('click', function(e) {
+        e.preventDefault();
+        seedImage.src = './papers/img/rolling_2D_seed.gif';
+        seedAnimationLink.style.visibility = 'hidden';
+    });
+    
+    // Setup for torus animation
+    const torusAnimationLink = document.getElementById('torus-animation-link');
+    const torusImage = document.getElementById('torus-image');
+    
+    document.getElementById('load-torus-animation').addEventListener('click', function(e) {
+        e.preventDefault();
+        torusImage.src = './tor_wave.gif';
+        torusAnimationLink.style.visibility = 'hidden';
+    });
+});
+</script>
+</body>
+</html>
