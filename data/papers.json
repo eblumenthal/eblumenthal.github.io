@@ -1,0 +1,83 @@
+{
+    "papers": [
+        {
+            "title": "A theory of ecological invasions and its implications for eco-evolutionary dynamics",
+            "year": 2025,
+            "authors": [
+                { "name": "Zhijie Feng" },
+                { "name": "Emmy Blumenthal", "highlight": true },
+                { "name": "Pankaj Mehta" },
+                { "name": "Akshit Goyal" }
+            ],
+            "publication": {
+                "name": "Proceedings of the National Academy of Sciences",
+                "note": "PNAS"
+            },
+            "links": [
+                { "label": "PDF", "url": "./papers/2503.10865v2.pdf" },
+                { "label": "Journal Link", "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2505850122?af=R" },
+                { "label": "arXiv", "url": "https://arxiv.org/abs/2503.10865" }
+            ]
+        },
+        {
+            "title": "Phase Transition to Chaos in Complex Ecosystems with Nonreciprocal Species-Resource Interactions",
+            "year": 2024,
+            "authors": [
+                { "name": "Emmy Blumenthal", "highlight": true },
+                { "name": "Jason Rocks" },
+                { "name": "Pankaj Mehta" }
+            ],
+            "publication": {
+                "name": "Physical Review Letters",
+                "note": "Editors' Suggestion"
+            },
+            "links": [
+                { "label": "PDF", "url": "./papers/PhysRevLett.132.127401.pdf" },
+                { "label": "Supporting Information", "url": "./papers/PhysRevLett.132.127401_SM.pdf" },
+                { "label": "Journal Link", "url": "https://doi.org/10.1103/PhysRevLett.132.127401" },
+                { "label": "arXiv", "url": "https://arxiv.org/abs/2308.15757" }
+            ]
+        },
+        {
+            "title": "Geometry of ecological coexistence and niche differentiation",
+            "year": 2023,
+            "authors": [
+                { "name": "Emmy Blumenthal", "highlight": true },
+                { "name": "Pankaj Mehta" }
+            ],
+            "publication": {
+                "name": "Physical Review E"
+            },
+            "links": [
+                { "label": "PDF", "url": "./papers/PhysRevE.108.044409.pdf" },
+                { "label": "Journal Link", "url": "https://doi.org/10.1103/PhysRevE.108.044409" },
+                { "label": "arXiv", "url": "https://arxiv.org/abs/2304.10694" }
+            ]
+        },
+        {
+            "title": "Search for Axionlike Dark Matter Using Solid-State Nuclear Magnetic Resonance",
+            "year": 2021,
+            "authors": [
+                { "name": "Deniz Aybas" },
+                { "name": "Deniz Aybas" },
+                { "name": "Janos Adam" },
+                { "name": "Emmy Blumenthal", "highlight": true },
+                { "name": "Alexander V. Gramolin" },
+                { "name": "Dorian Johnson" },
+                { "name": "Annalies Kleyheeg" },
+                { "name": "Derek F. Jackson Kimball1" },
+                { "name": "Dmitry Budker" },
+                { "name": "Alexander O. Sushkov" },
+                { "name": "et al" }
+            ],
+            "publication": {
+                "name": "Physical Review Letters"
+            },
+            "links": [
+                { "label": "PDF", "url": "./papers/PhysRevLett.126.141802.pdf" },
+                { "label": "Journal Link", "url": "https://doi.org/10.1103/PhysRevLett.126.141802" },
+                { "label": "arXiv", "url": "https://arxiv.org/abs/2101.01241" }
+            ]
+        }
+    ]
+}
